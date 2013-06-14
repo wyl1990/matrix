@@ -1,0 +1,18 @@
+﻿Build started 6/14/2013 9:54:42 AM.
+     1>Project "C:\Users\lili\Desktop\Matrix\MatrixDll\MatrixDll.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /sdl /Od /Oy- /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MatrixDll.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /sdl /Od /Oy- /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MatrixDll.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dll.cpp
+         dll.cpp
+     1>c:\users\lili\desktop\matrix\matrixdll\dll.cpp(64): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lili\Desktop\Matrix\Debug\MatrixDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"dll.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lili\Desktop\Matrix\Debug\MatrixDll.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lili\Desktop\Matrix\Debug\MatrixDll.lib" /MACHINE:X86 /DLL Debug\dll.obj
+         Debug\stdafx.obj
+            Creating library C:\Users\lili\Desktop\Matrix\Debug\MatrixDll.lib and object C:\Users\lili\Desktop\Matrix\Debug\MatrixDll.exp
+         MatrixDll.vcxproj -> C:\Users\lili\Desktop\Matrix\Debug\MatrixDll.dll
+     1>Done Building Project "C:\Users\lili\Desktop\Matrix\MatrixDll\MatrixDll.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.20
